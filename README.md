@@ -1,1 +1,1 @@
-Telco Customer Churn using Tensorflow
+Flower Identifier Model using Tensorflow, OpenCV

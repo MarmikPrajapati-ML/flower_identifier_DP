@@ -25,11 +25,11 @@ The dataset used in this project contains images of flowers belonging to five di
 ## Model Architecture
 The model architecture includes the following layers:
 
-Convolutional Layers: For feature extraction from the images.
-Max Pooling Layers: To reduce the dimensionality of the feature maps.
-Dropout Layer: To prevent overfitting.
-Flatten Layer: To convert the 2D feature maps into a 1D feature vector.
-Dense Layers: To perform the classification based on the extracted features.
+      Convolutional Layers: For feature extraction from the images.
+      Max Pooling Layers: To reduce the dimensionality of the feature maps.
+      Dropout Layer: To prevent overfitting.
+      Flatten Layer: To convert the 2D feature maps into a 1D feature vector.
+      Dense Layers: To perform the classification based on the extracted features.
 
 ## Training
 The model is trained for 50 epochs using the Adam optimizer and Sparse Categorical Crossentropy loss function. Data augmentation techniques are applied during training to enhance the model's ability to generalize to new images.
